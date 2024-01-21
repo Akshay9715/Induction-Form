@@ -1,0 +1,294 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: sans-serif; 
+
+  
+}
+
+@media (max-width : 580px) {
+    .sep{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    .clk{
+        width: 100%;
+    }
+    audio{
+        width: 60%;
+    }
+    .child1,.child2{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+    form{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+
+    }
+     
+    
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background: url(kash.jpg);
+}
+
+header{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    height: 10vh;
+}
+h1{
+    color: #fff;
+}
+
+nav {
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    /* position: sticky;
+    width: 100%; */
+    display: flex;
+    background-color: #1d1d1d;
+    color: white;
+    /* padding: 1em; */
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 55;
+}
+nav a{
+    /* border: 2px solid transparent;
+    padding: 0.3rem 0.5rem ;
+    margin: 0.3rem;
+    border-radius: 5px; */
+    text-decoration: none;
+    color: white;
+}
+nav div{
+    padding: 0.3rem;
+    margin-top: 0.3rem;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 2px solid transparent;
+    color: black;
+}
+nav div:hover{
+    background-color: #f4f4f4;
+}
+nav div a:hover{
+    color: black;
+
+}
+
+.sep{
+    display: flex;
+}
+
+.child1{
+    width: 50%;
+}
+.child2{
+    width: 50%;
+}
+
+#inductionForm h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.child1{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+.clk{
+    display: flex;
+    background-color: white;
+    width: 30%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #1d1d1d;
+    box-shadow: 5px 5px 10px black;
+    border: 2px solid white;
+}
+#clock{
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);;
+    font-weight: 500;
+    font-size: 2rem;
+    background-color: rgba(f, f, f, 0.3);
+}
+
+.songs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 50%;
+    background-color: rgba(f, f, f, 0.3);
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #1d1d1d;
+}
+
+.sbutton{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 5%;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-top: 20px;
+    background-color: #081c23;
+}
+.base{
+    height: 100%;
+    width: 80%;
+    border: 5px solid rgb(0, 0, 0,);
+    border-radius: 5px;
+    background: url(musicimage.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+audio{
+    margin-bottom: 25px;
+    opacity: 0;
+    position: absolute;
+}
+
+.back{
+    font-weight: 900;
+    font-size: 1.2rem; 
+    width: 40%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.next{
+    font-weight: 900;
+    font-size: 1.2rem;
+    width: 40%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+form {
+    /* max-width: 600px; */
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+i{
+    position: absolute;
+    padding: 10px;
+    margin-bottom: 15px;;
+    border: 1px solid #ccc;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+.div1{
+    display: flex;
+    gap: 5%;
+}
+.inner1{
+    width: 50%;
+}
+.inner2{
+    width: 50%;
+}
+#name{
+    width: 100%;
+    padding-left: 20%;
+}
+#Opassword,#Cpassword{
+    padding-left: 9%;
+}
+#phoneNumber{
+    padding-left: 9%;
+
+}
+#whyJoin{
+    width: 100%;
+}
+#email{
+    padding-left: 9%;
+}
+.fa-eye{
+    background-color: white;
+    position: absolute;
+    left: 95.5%;
+}
+textarea{
+    padding: 0.4rem;
+
+}
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#password-eye {
+    cursor: pointer;
+    position: relative;
+}
+
+.subres{
+    display: flex;
+    gap: 2%;
+}
+
+/*  clock */
+
+
+
+
+footer {
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    font-size: 1rem;
+    font-weight: 200;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}

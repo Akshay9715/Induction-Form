@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Club Induction Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<header>
+    <h1>Web Development Club</h1>
+</header>
+
+<div class="parent">
+    <nav>
+        <div><a href="#">Home</a></div>
+        <div><a href="#">About us</a></div>
+        <div><a href="#">Contact us</a></div>
+        <div><a href="#">Our Services</a></div>
+        <div><a href="#">Feedback</a></div>
+    
+        <!-- Add navigation links if needed -->
+    </nav>
+    <div class="sep">
+        <div class="child1">
+            <div class="clk">
+                <div id="clock">8:10:45</div>
+            </div>
+            <div class="songs">
+                <div class="base"></div>
+                <audio id="music" src="music1.mp3" 0n autoplay controls  ></audio>
+                <div class="sbutton">
+                    <button class="back" > < </button>
+                    <button class="next" > > </button> 
+                </div>    
+            </div>
+        </div>
+        <div class="child2">
+<form id="inductionForm">
+
+    <div class="reshead">
+        <h1>Registration Form</h1>
+    </div>
+   
+    <div class="div1">
+        <div class="inner1">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" id="name" name="name" placeholder="First Name" required>
+        </div>
+        <div class="inner2">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" id="name" name="name" placeholder="Last Name" required>
+        </div>
+    </div>
+ 
+    <div class="div1">
+        <div class="inner1">
+            <i class="fa-solid fa-book"></i>
+            <input type="text" id="name" name="name" placeholder="Class 10th " required>
+        </div>
+        <div class="inner2">
+            <i class="fa-solid fa-book"></i>
+            <input type="text" id="name" name="name" placeholder="Class 12th" required>
+        </div>
+    </div>
+
+    <div id="password-eye">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" id="Opassword" name="password" placeholder="Create Password " required>
+        <!-- <i class="fa-solid fa-eye"></i> -->
+    </div>
+
+    <div id="password-eye">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" id="Cpassword" name="password" placeholder="Conform Password " required>
+        <!-- <i class="fa-solid fa-eye"></i> -->
+    </div>
+
+    <label for="dob" style="color: white;">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" placeholder="Date of Birth">
+
+    <i class="fa-solid fa-phone"></i>
+    <input type="number" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" required>
+    
+    <i class="fa-solid fa-envelope"></i>
+    <input type="email" id="email" name="email" placeholder="Email" required>
+
+    <input type="text" id="hobbies" name="hobbies" placeholder="Hobbies">
+    <div class="l1">
+    <textarea id="whyJoin" name="whyJoin" rows="4" placeholder="Why do you want to join ?"></textarea>
+    </div>
+    <div class="subres">
+        <input id="Submit" type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </div>
+    
+</form>
+</div>
+</div>
+</div>
+<footer>
+    <p>&copy; 2024 Web Development Club</p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+</body>
+</html>
